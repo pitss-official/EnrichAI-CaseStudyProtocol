@@ -1,0 +1,18 @@
+{
+  "name": "enrich-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "adapter": "node server.js",
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-crc-itu": "^0.1.0",
+    "system-sleep": "^1.3.6"
+  }
+}
