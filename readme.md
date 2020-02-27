@@ -1,5 +1,5 @@
-#Enrich AI: Protocol Simulator
-######By Pawan Kumar
+# Enrich AI: Protocol Simulator
+###### By Pawan Kumar
 ***
 Installation Guide:
 * You should have node js and npm installed
@@ -11,7 +11,7 @@ all the devices and will respond to them as well as store the results.
 * run multiple instances of __npm run client__. All the instances will act like a individual device and will connect 
 with the server as per protocol documentation
 
-####Currently client and server both features:
+#### Currently client and server both features:
 *** 
  * __error detection__
  
@@ -25,7 +25,7 @@ with the server as per protocol documentation
  
  * __GPS Packet decoding and storing the results__
  
- ####Results
+ #### Results
  ***
  The server will store last result of gps data in __lastGPSData.json__ file and other past results in __results.json__ file.
  The results.json is not a proper json file however we can do better by using database management systems.
@@ -33,7 +33,7 @@ with the server as per protocol documentation
  are high which will throw unwanted error and exceptions in JSON.parse function. However if we will use database management 
  system like mongo db, it will be a peice of cake to store a object inside a document in mongodb or we can update the existing 
  data for that device using socket id.
- #####JSON Interpretation
+ ##### JSON Interpretation
  ***
        {
            "date":"27/1/20",
