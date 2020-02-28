@@ -56,3 +56,5 @@ with the server as per protocol documentation
            "deviceID":"0351608080779288"
        }
   
+#### Client or Terminal Details
+For now the device(terminal)'s hardware details like IMEI, GPS Data and other associated data is hardcoded into client.js, we can replace it with source or sensor data in actual device
