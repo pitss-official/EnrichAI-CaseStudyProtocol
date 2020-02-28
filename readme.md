@@ -58,3 +58,7 @@ with the server as per protocol documentation
   
 #### Client or Terminal Details
 For now the device(terminal)'s hardware details like IMEI, GPS Data and other associated data is hardcoded into client.js, we can replace it with source or sensor data in actual device
+***
+#### Caution
+***
+Do not delete the results.json file. It is used for storing the results. Rather clear the file contents for fresh results.
